@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <title>KiliD Arya Varaste Sigup</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.kilidstatic.com/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://www.kilidstatic.com/favicons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.kilidstatic.com/favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="login-style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body dir="rtl">
+    <div class="maincont">
+        <div class="flex-row rowcont">
+            <div class="rightcol" style="background-color:#b30753">
+            </div>
+            <a href="home.html">
+                <button class="btn">
+                <i class="fa fa-close"></i>
+            </button>
+            </a>
+            <div class="leftcol" style="background-color: white">
+                <div id="logs">
+                    <a href="login.html">
+                        <span>
+                        | ورود
+                    </span>
+                    </a>
+                    <a href="signup.html">
+                        <span class="spanin">
+                        | ثبت نام
+                        </span>
+                    </a>
+                </div>
+                <div style="padding-right: 15%;">
+                    <form action="" method="GET" name="signInForm" class="inputForm">
+                        <div class="inputinputcont">
+                            <input type="text" class="inputinput" placeholder="نام">
+                        </div>
+                        <div class="inputinputcont">
+                            <input type="text" class="inputinput" placeholder="نام خانوادگی">
+                        </div>
+                        <div class="inputinputcont">
+                            <input type="text" class="inputinput" placeholder="شماره همراه یا ایمیل" name="userEmailPhone" minlength="4" required pattern=".*\S+.*">
+                        </div>
+                        <div class="inputinputcont">
+                            <input type="password" class="inputinput" placeholder="رمز عبور" name="password" minlength="8" required pattern=".*\S+.*">
+                        </div>
+                        <div class="forpass flex-row" style="padding-right: 0%;">
+                            <input type="checkbox" class="chbox">
+                            <p style="margin-left: 20px;"> دریافت خبرنامه</p>&nbsp;
+                            <p>ثبت نام به معنی قبول </p>
+                            <p style="color:rgb(30, 30, 247)">&nbsp; قوانین و مقررات </p>&nbsp;
+                            <p>است</p>
+                        </div>
+                        <div>
+                            <button class="senddis" type="submit">
+                            ارسال                  
+                        </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
