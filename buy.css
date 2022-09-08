@@ -1,0 +1,884 @@
+    body .buorg-pad {
+        font-family: IRANSans, sans-serif;
+        font-size: 14px;
+    }
+    
+    body>a {
+        z-index: 1 !important;
+        width: 120px !important;
+        height: 110px !important;
+        display: flex;
+    }
+    
+    body>a>img {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+    
+    @media only screen and (max-width: 700px) {
+        body .buorg-pad {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: IRANSans, sans-serif;
+            font-size: 14px;
+        }
+        body .buorg-pad span {
+            margin-bottom: 5px;
+        }
+        body .buorg-pad #buorgul {
+            margin: 5px 2px;
+        }
+    }
+    
+    my-app {
+        display: contents
+    }
+    
+    .wi-15 {
+        width: 15%;
+        min-width: 15%
+    }
+    
+    .wi-20 {
+        width: 20%;
+        min-width: 20%
+    }
+    
+    .wi-25 {
+        width: 25%;
+        min-width: 25%
+    }
+    
+    .wi-30 {
+        width: 30%;
+        min-width: 30%
+    }
+    
+    .wi-35 {
+        width: 35%;
+        min-width: 35%
+    }
+    
+    .wi-40 {
+        width: 40%;
+        min-width: 40%
+    }
+    
+    .wi-45 {
+        width: 45%;
+        min-width: 45%
+    }
+    
+    .wi-50 {
+        width: 50%;
+        min-width: 50%
+    }
+    
+    .wi-55 {
+        width: 55%;
+        min-width: 55%
+    }
+    
+    .wi-60 {
+        width: 60%;
+        min-width: 60%
+    }
+    
+    .wi-70 {
+        width: 70%;
+        min-width: 70%
+    }
+    
+    .wi-75 {
+        width: 75%;
+        min-width: 75%
+    }
+    
+    .wi-80 {
+        width: 80%;
+        min-width: 80%
+    }
+    
+    .wi-85 {
+        width: 85%;
+        min-width: 85%
+    }
+    
+    .wi-90 {
+        width: 90%;
+        min-width: 90%
+    }
+    
+    .wi-95 {
+        width: 95%;
+        min-width: 95%
+    }
+    
+    .wi-100 {
+        width: 100%;
+        min-width: 100%
+    }
+    
+    .wi-66 {
+        width: 66.66666667%;
+        min-width: 66.66666667%
+    }
+    
+    .wi-99 {
+        width: 100%;
+        min-width: 100%
+    }
+    
+    .hi-5 {
+        height: 5%;
+        min-height: 5%
+    }
+    
+    .hi-10 {
+        height: 10%;
+        min-height: 10%
+    }
+    
+    .hi-20 {
+        height: 20%;
+        min-height: 20%
+    }
+    
+    .hi-25 {
+        height: 25%;
+        min-height: 25%
+    }
+    
+    .hi-30 {
+        height: 30%;
+        min-height: 30%
+    }
+    
+    .hi-35 {
+        height: 35%;
+        min-height: 35%
+    }
+    
+    .hi-45 {
+        height: 45%;
+        min-height: 45%
+    }
+    
+    .hi-50 {
+        height: 50%;
+        min-height: 50%
+    }
+    
+    .hi-55 {
+        height: 55%;
+        min-height: 55%
+    }
+    
+    .hi-60 {
+        height: 60%;
+        min-height: 60%
+    }
+    
+    .hi-65 {
+        height: 65%;
+        min-height: 65%
+    }
+    
+    .hi-75 {
+        height: 75%;
+        min-height: 75%
+    }
+    
+    .hi-80 {
+        height: 80%;
+        min-height: 80%
+    }
+    
+    .hi-85 {
+        height: 85%;
+        min-height: 85%
+    }
+    
+    .hi-90 {
+        height: 90%;
+        min-height: 90%
+    }
+    
+    .hi-95 {
+        height: 95%;
+        min-height: 95%
+    }
+    
+    .hi-100 {
+        height: 100%;
+        min-height: 100%
+    }
+    
+    .hi-33 {
+        height: 33.33333333%;
+        min-height: 33.33333333%
+    }
+    
+    .hi-66 {
+        height: 66.66666667%;
+        min-height: 66.66666667%
+    }
+    
+    .hi-99 {
+        height: 100%;
+        min-height: 100%
+    }
+    
+    .flex-row {
+        display: flex;
+        flex-direction: row
+    }
+    
+    .flex-col {
+        display: flex;
+        flex-direction: column
+    }
+    
+    .jus-start {
+        justify-content: flex-start
+    }
+    
+    .jus-center {
+        justify-content: center
+    }
+    
+    .jus-end {
+        justify-content: flex-end
+    }
+    
+    .jus-between {
+        justify-content: space-between
+    }
+    
+    .jus-around {
+        justify-content: space-around
+    }
+    
+    .al-center {
+        align-items: center
+    }
+    
+    .al-start {
+        align-items: flex-start
+    }
+    
+    .al-end {
+        align-items: flex-end
+    }
+    
+    .wrapped {
+        flex-wrap: wrap
+    }
+    
+    @font-face {
+        font-family: IRANSans;
+        font-style: normal;
+        font-weight: 900;
+        src: url("https://www.kilidstatic.com/fonts/iransans/eot/IRANSansWeb(FaNum)_Black.eot");
+        src: url("https://www.kilidstatic.com/fonts/iransans/eot/IRANSansWeb(FaNum)_Black.eot?#iefix") format("embedded-opentype"), url("https://www.kilidstatic.com/fonts/iransans/woff2/IRANSansWeb(FaNum)_Black.woff2") format("woff2"), url("https://www.kilidstatic.com/fonts/iransans/woff/IRANSansWeb(FaNum)_Black.woff") format("woff"), url("https://www.kilidstatic.com/fonts/iransans/ttf/IRANSansWeb(FaNum)_Black.ttf") format("truetype")
+    }
+    
+    @font-face {
+        font-family: IRANSans;
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://www.kilidstatic.com/fonts/iransans/eot/IRANSansWeb(FaNum)_Bold.eot");
+        src: url("https://www.kilidstatic.com/fonts/iransans/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix") format("embedded-opentype"), url("https://www.kilidstatic.com/fonts/iransans/woff2/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"), url("https://www.kilidstatic.com/fonts/iransans/woff/IRANSansWeb(FaNum)_Bold.woff") format("woff"), url("https://www.kilidstatic.com/fonts/iransans/ttf/IRANSansWeb(FaNum)_Bold.ttf") format("truetype")
+    }
+    
+    @font-face {
+        font-family: IRANSans;
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://www.kilidstatic.com/fonts/iransans/eot/IRANSansWeb(FaNum)_Medium.eot");
+        src: url("https://www.kilidstatic.com/fonts/iransans/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix") format("embedded-opentype"), url("https://www.kilidstatic.com/fonts/iransans/woff2/IRANSansWeb(FaNum)_Medium.woff2") format("woff2"), url("https://www.kilidstatic.com/fonts/iransans/woff/IRANSansWeb(FaNum)_Medium.woff") format("woff"), url("https://www.kilidstatic.com/fonts/iransans/ttf/IRANSansWeb(FaNum)_Medium.ttf") format("truetype")
+    }
+    
+    @font-face {
+        font-family: IRANSans;
+        font-style: normal;
+        font-weight: 300;
+        src: url("https://www.kilidstatic.com/fonts/iransans/eot/IRANSansWeb(FaNum)_Light.eot");
+        src: url("https://www.kilidstatic.com/fonts/iransans/eot/IRANSansWeb(FaNum)_Light.eot?#iefix") format("embedded-opentype"), url("https://www.kilidstatic.com/fonts/iransans/woff2/IRANSansWeb(FaNum)_Light.woff2") format("woff2"), url("https://www.kilidstatic.com/fonts/iransans/woff/IRANSansWeb(FaNum)_Light.woff") format("woff"), url("https://www.kilidstatic.com/fonts/iransans/ttf/IRANSansWeb(FaNum)_Light.ttf") format("truetype")
+    }
+    
+    @font-face {
+        font-family: IRANSans;
+        font-style: normal;
+        font-weight: 200;
+        src: url("https://www.kilidstatic.com/fonts/iransans/eot/IRANSansWeb(FaNum)_UltraLight.eot");
+        src: url("https://www.kilidstatic.com/fonts/iransans/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix") format("embedded-opentype"), url("https://www.kilidstatic.com/fonts/iransans/woff2/IRANSansWeb(FaNum)_UltraLight.woff2") format("woff2"), url("https://www.kilidstatic.com/fonts/iransans/woff/IRANSansWeb(FaNum)_UltraLight.woff") format("woff"), url("https://www.kilidstatic.com/fonts/iransans/ttf/IRANSansWeb(FaNum)_UltraLight.ttf") format("truetype")
+    }
+    
+    @font-face {
+        font-family: IRANSans;
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://www.kilidstatic.com/fonts/iransans/eot/IRANSansWeb(FaNum).eot");
+        src: url("https://www.kilidstatic.com/fonts/iransans/eot/IRANSansWeb(FaNum).eot?#iefix") format("embedded-opentype"), url("https://www.kilidstatic.com/fonts/iransans/woff2/IRANSansWeb(FaNum).woff2") format("woff2"), url("https://www.kilidstatic.com/fonts/iransans/woff/IRANSansWeb(FaNum).woff") format("woff"), url("https://www.kilidstatic.com/fonts/iransans/ttf/IRANSansWeb(FaNum).ttf") format("truetype")
+    }
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0
+    }
+    
+    body {
+        font-family: IRANSans, sans-serif;
+        direction: rtl;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: #fff
+    }
+    
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto
+    }
+    
+    input {
+        font-family: IRANSans, sans-serif
+    }
+    
+     :focus,
+    button:focus,
+    input:focus,
+    textarea:focus {
+        outline: 0
+    }
+    
+    button {
+        font-family: IRANSans, sans-serif!important
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: 100%
+    }
+    
+    input:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0 30px #fff inset;
+        -webkit-text-fill-color: #696969!important
+    }
+    
+    li,
+    ol,
+    ul {
+        list-style-type: none
+    }
+    
+    .icon[_ngcontent-sc4] {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        border-radius: 0 5px 5px 0
+    }
+    
+    .icon[_ngcontent-sc4] i[_ngcontent-sc4] {
+        font-size: 28px
+    }
+    
+    h2 {
+        font-size: 22px;
+        font-weight: 500
+    }
+    
+    p {
+        font-size: 16px;
+        text-align: center;
+        color: #5e5e5e
+    }
+    
+    .button {
+        width: 200px;
+        height: 50px;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer
+    }
+    
+    .button a {
+        cursor: pointer;
+        width: 100%;
+        height: 100%
+    }
+    
+    .occasion {
+        margin-top: 20px;
+        padding: 40px 0
+    }
+    
+    .occasion h2 {
+        color: #b30753;
+        margin-bottom: 30px
+    }
+    
+    .occasion .cards {
+        margin-bottom: 20px
+    }
+    
+    .occasion .cards listing-card {
+        padding-right: 10px;
+        padding-left: 10px
+    }
+    
+    .occasion .button {
+        width: 185px;
+        font-size: 15px;
+        color: #b30753;
+        background: #fff;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+        transition: all .3s ease
+    }
+    
+    .occasion .button:hover {
+        background-color: #b30753;
+        color: #fff
+    }
+    
+    .occasion .occasion-buttons {
+        margin-bottom: 35px
+    }
+    
+    .occasion .occasion-buttons button {
+        box-shadow: 0 1px 10px rgba(0, 0, 0, .16);
+        transition: all .3s ease;
+        border-radius: 10px
+    }
+    
+    .occasion .occasion-buttons button:first-child {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0
+    }
+    
+    .occasion .occasion-buttons button:last-child {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0
+    }
+    
+    .kilid-card {
+        height: 250px;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+        border-radius: 5px;
+        margin-bottom: 20px;
+        transition: all .3s ease
+    }
+    
+    .kilid-card:hover {
+        box-shadow: 0 1px 16.17px 4.83px rgba(209, 211, 213, .77)
+    }
+    
+    .kilid-card .image-holder {
+        position: relative;
+        height: 154px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background: center center/cover no-repeat
+    }
+    
+    .kilid-card .image-holder .expired-label {
+        position: absolute;
+        top: 7px;
+        right: 0;
+        width: 60px;
+        height: 32px;
+        color: #fff;
+        font-size: 16px;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        background-color: #000;
+        opacity: .6
+    }
+    
+    .kilid-card .image-holder .save-icon {
+        position: absolute;
+        top: 7px;
+        left: 8px;
+        transition: all .3s ease
+    }
+    
+    .kilid-card .image-holder .save-icon svg {
+        width: 20px;
+        height: 28px
+    }
+    
+    .kilid-card .image-holder .save-icon svg .cls-1 {
+        fill: rgba(51, 51, 51, .4);
+        stroke-linecap: round;
+        stroke-linejoin: round
+    }
+    
+    .kilid-card .image-holder .save-icon svg .cls-2,
+    .kilid-card .image-holder .save-icon svg .cls-3 {
+        stroke: none
+    }
+    
+    .kilid-card .image-holder .save-icon svg .cls-3 {
+        fill: #fff
+    }
+    
+    .kilid-card .image-holder .save-icon.active svg .cls-1 {
+        fill: #b30753
+    }
+    
+    .kilid-card .image-holder .save-icon:hover svg .cls-1 {
+        fill: rgba(179, 7, 83, .5)
+    }
+    
+    .kilid-card .image-holder .promoted {
+        position: absolute;
+        top: 5px;
+        width: 33px;
+        height: 30px;
+        display: flex;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        right: 0;
+        color: #fff
+    }
+    
+    .kilid-card .image-holder .promoted i {
+        z-index: 12
+    }
+    
+    .kilid-card .image-holder .promoted .promoted-shadow {
+        background-color: rgba(51, 51, 51, .2);
+        position: absolute;
+        left: -4px;
+        bottom: -3px;
+        width: 37px;
+        z-index: 10;
+        height: 30px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px
+    }
+    
+    .kilid-card .image-holder .promoted .promoted-background {
+        width: 100%;
+        height: 100%;
+        z-index: 11;
+        position: absolute;
+        background-color: #ffba00;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px
+    }
+    
+    .kilid-card .image-holder .images-detail {
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        padding: 8px 10px;
+        background: linear-gradient(to top, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .001) 100%);
+        font-size: 10px;
+        color: #fff;
+        bottom: 0;
+        right: 0
+    }
+    
+    .kilid-card .image-holder .address-and-title .address {
+        font-size: 10px;
+        color: #fffbfb;
+        margin-bottom: 8px
+    }
+    
+    .kilid-card .image-holder .address-and-title .card-title {
+        font-size: 12px;
+        font-weight: 500;
+        color: #fff
+    }
+    
+    .kilid-card .image-holder .number-of-images svg {
+        width: 17px;
+        height: 14px;
+        margin-right: 5px;
+        fill: #fff;
+        stroke: #fff;
+        stroke-width: .5px
+    }
+    
+    .kilid-card .card-detail-holder {
+        flex: 1;
+        padding: 2px
+    }
+    
+    .kilid-card .property-info {
+        padding: 2px 0;
+        border-bottom: 1px solid #e1e4e9
+    }
+    
+    .kilid-card .property-info .single-info {
+        flex: 1;
+        color: #666;
+        font-size: 11px;
+        border-left: 1px solid #e1e4e9;
+        white-space: nowrap
+    }
+    
+    .kilid-card .property-info .single-info span {
+        width: 30px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center
+    }
+    
+    .kilid-card .property-info .single-info:last-child {
+        border-left: none
+    }
+    
+    .kilid-card .property-info .date-info {
+        color: #517cfb
+    }
+    
+    .kilid-card .price-holder {
+        flex: 1;
+        padding: 10px
+    }
+    
+    .kilid-card .single-price {
+        font-size: 16px;
+        color: #173a63
+    }
+    
+    .kilid-card .single-price .title {
+        font-size: 11px;
+        margin-left: 10px
+    }
+    
+    .kilid-card .sale-prices {
+        flex: 1
+    }
+    
+    .kilid-card .sale-prices .title {
+        width: 42px;
+        margin-left: 0
+    }
+    
+    .kilid-card .agency-holder img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        -o-object-fit: cover;
+        object-fit: cover
+    }
+    
+    .kilid-card .agency-holder span {
+        font-size: 9px;
+        color: #666;
+        width: 55px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+        white-space: nowrap
+    }
+    
+    .kilid-card .multi-agencies {
+        font-size: 11px
+    }
+    
+    .kilid-responsive-card {
+        position: relative;
+        height: 176px;
+        width: 100%;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, .1);
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+        margin-bottom: 8px
+    }
+    
+    .kilid-responsive-card .promoted {
+        position: absolute;
+        top: 10px;
+        width: 33px;
+        height: 26px;
+        display: flex;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        left: -1px;
+        color: #fff
+    }
+    
+    .kilid-responsive-card .promoted i {
+        z-index: 12
+    }
+    
+    .kilid-responsive-card .promoted .promoted-shadow {
+        background-color: rgba(51, 51, 51, .2);
+        position: absolute;
+        right: -4px;
+        bottom: -3px;
+        width: 37px;
+        z-index: 10;
+        height: 26px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px
+    }
+    
+    .kilid-responsive-card .promoted .promoted-background {
+        width: 100%;
+        height: 100%;
+        z-index: 11;
+        position: absolute;
+        background-color: #ffba00;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px
+    }
+    
+    .kilid-responsive-card .top-section {
+        padding: 8px;
+        flex: 1
+    }
+    
+    .kilid-responsive-card .card-detail-holder {
+        position: relative;
+        flex: 1;
+        margin-left: 4px
+    }
+    
+    .kilid-responsive-card .card-title {
+        font-size: 13px;
+        color: #000;
+        line-height: 24px;
+        padding-top: 8px
+    }
+    
+    .kilid-responsive-card .single-price {
+        font-size: 13px;
+        color: #173a63
+    }
+    
+    .kilid-responsive-card .single-price .title {
+        font-size: 10px;
+        color: #555;
+        margin-left: 5px
+    }
+    
+    .kilid-responsive-card .image-holder {
+        position: relative;
+        width: 128px;
+        height: 128px;
+        background: center center/cover no-repeat;
+        border-radius: 10px;
+        overflow: hidden
+    }
+    
+    .kilid-responsive-card .image-holder .expired-holder {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, .5)
+    }
+    
+    .kilid-responsive-card .image-holder .expired-holder .expired {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .5);
+        font-size: 20px;
+        color: rgba(255, 255, 255, .5)
+    }
+    
+    .kilid-responsive-card .image-holder .save-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 8px;
+        transition: all .3s ease
+    }
+    
+    .kilid-responsive-card .image-holder .save-icon svg {
+        width: 20px;
+        height: 28px;
+        fill: rgba(51, 51, 51, .4)
+    }
+    
+    .kilid-responsive-card .image-holder .save-icon.active svg {
+        fill: #b30753
+    }
+    
+    .kilid-responsive-card .image-holder .save-icon:active svg {
+        fill: rgba(179, 7, 83, .5)
+    }
+    
+    .kilid-responsive-card .image-holder .images-detail {
+        position: absolute;
+        width: 100%;
+        height: 54px;
+        padding: 8px;
+        background: linear-gradient(to top, rgba(0, 0, 0, .66) 0, rgba(0, 0, 0, .01) 100%);
+        font-size: 10px;
+        color: #fff;
+        bottom: 0;
+        right: 0
+    }
+    
+    .kilid-responsive-card .image-holder .address {
+        font-size: 10px;
+        color: #fffbfb;
+        white-space: nowrap;
+        max-width: 85px;
+        overflow: hidden;
+        text-overflow: ellipsis
+    }
+    
+    .kilid-responsive-card .image-holder .number-of-images svg {
+        width: 17px;
+        height: 14px;
+        margin-left: 5px;
+        fill: #fff;
+        stroke: #fff;
+        stroke-width: .5px
+    }
+    
+    .kilid-responsive-card .property-info {
+        height: 32px;
+        border-top: 1px solid #e5e5e5
+    }
+    
+    .kilid-responsive-card .property-info .single-info {
+        flex: 1;
+        color: #666;
+        font-size: 10px;
+        border-left: 1px solid #e5e5e5;
+        white-space: nowrap
+    }
+    
+    .kilid-responsive-card .property-info .single-info span {
+        width: 30px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center
+    }
+    
+    .kilid-responsive-card .property-info .single-info:last-child {
+        border-left: none
+    }
+    
+    .kilid-responsive-card .property-info .date-info {
+        color: rgba(81, 124, 251, .7)
+    }
